@@ -39,7 +39,7 @@ export const BurgerMenu = styled.div`
 
     div {
       position: absolute;
-      background: var(--emerald);
+      background: #FF0000;
       width: '250px';
       height: '300px';
       border-radius: 25px;
@@ -63,7 +63,7 @@ export const Nav = styled.div`
   margin-right: -6.3rem;
 
   a {
-    color: var(--link-color);
+    color: #FFFFFF;
     font-size: 1rem;
     font-weight: 400;
   }
@@ -91,7 +91,7 @@ export const Nav = styled.div`
 export const AbsoluteLinks = styled(Link)`
   position: absolute;
   top: 40px;
-  color: var(--link-color);
+  color: #FFFFFF;
   font-size: 1rem;
   font-weight: 400;
 `;

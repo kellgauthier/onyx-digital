@@ -23,6 +23,7 @@ const OffersSection = () => {
   return (
     <Wrapper>
       <Inner>
+        <div id="services"></div>
         <Header>
           <MaskText phrases={desktopHeaderPhrases} tag="h1" />
 

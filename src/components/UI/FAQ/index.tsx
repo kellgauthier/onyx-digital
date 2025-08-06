@@ -38,6 +38,7 @@ const FAQ = () => {
 
   return (
     <Wrapper>
+      <div id="faq"></div>
       <Inner>
         {isMobile ? (
           <MaskText phrases={mobileHeaderPhrase} tag="h1" />

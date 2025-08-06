@@ -1,47 +1,43 @@
-import seamless_payments from '../../../../public/images/seamless_payments.png';
-import smart_investing from '../../../../public/images/smart_investing.png';
-import wealth_management from '../../../../public/images/wealth_management.png';
-import financial_planning from '../../../../public/images/financial_planning.png';
+import web_design_and_development from '../../../../public/images/web-dev.jpg';
+import digital_marketing from '../../../../public/images/digital-marketing.png';
+import brand_management from '../../../../public/images/brand.jpg';
+import web_accessibility from '../../../../public/images/web-access.jpg';
 // For desktop
 export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
-  'Journey with RAFT',
+  'What we do'
 ];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
-  "we've got you covered. Join us and unlock your potential today.",
+'Onyx Digital crafts digital experiences that enhance human interaction.'
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
-  'Join us and unlock your potential today.',
+  'Onyx Digital crafts digital experiences that enhance human interaction.',
 ];
 
 export const offers = [
   {
-    illustration: seamless_payments,
-    title: 'Seamless Payments',
+    illustration: web_design_and_development,
+    title: 'Web Design and Development',
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      'We fuse striking design with clean, scalable code to create websites that are as original as the brands behind them. No templates—just pure digital craftsmanship.',
   },
   {
-    illustration: smart_investing,
-    title: 'Smart Investing',
+    illustration: brand_management,
+    title: 'Brand Management',
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      "Your brand is more than a logo—it's a living, evolving experience. We manage every aspect of your brand to keep it sharp, consistent, and unforgettable.",
   },
   {
-    illustration: wealth_management,
-    title: 'Wealth Management',
+    illustration: digital_marketing,
+    title: 'Digital Marketing',
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
+      'We create data-backed digital marketing strategies that drive real results—from targeted ads and SEO to content that converts.',
   },
   {
-    illustration: financial_planning,
-    title: 'Financial Planning',
+    illustration: web_accessibility,
+    title: 'ADA & Accessibility Compliance',
     details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+      'Ensure your digital presence is accessible to all users with our ADA compliance services, helping you meet legal standards and create an inclusive experience.',
   },
 ];

@@ -44,13 +44,13 @@ export const HeroTextContainer = styled.div`
   padding-bottom: 2rem;
 
   h1 {
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 400;
   }
 
   p {
     max-width: 41.75rem;
-    color: #bdbdbd;
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: 400;
     margin: 0 auto;
@@ -65,6 +65,7 @@ export const HeroTextContainer = styled.div`
     }
 
     p {
+      max-width: 75%;
       font-size: 1rem;
       line-height: 1.5rem;
     }

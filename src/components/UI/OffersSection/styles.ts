@@ -84,7 +84,7 @@ export const ImageCtn = styled.div`
 `;
 
 export const TextCtn = styled.div`
-  padding: 2.5rem;
+  padding: 3.5rem;
   padding-top: 3.25rem;
   max-width: 32.25rem;
   display: flex;
@@ -103,6 +103,8 @@ export const TextCtn = styled.div`
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
   }
 
   @media (max-width: 768px) {
@@ -187,7 +189,7 @@ export const Offers = styled.div`
 
 export const OfferCard = styled.div`
   overflow: hidden;
-  height: 31.25rem;
+  height: auto;
   border-radius: 0.75rem;
   border: 1px solid var(--stroke, rgba(255, 255, 255, 0.04));
   display: flex;

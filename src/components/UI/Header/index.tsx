@@ -7,10 +7,9 @@ import {
   LogoContainer,
   Nav,
   CallToActions,
-  AbsoluteLinks,
   BurgerMenu,
 } from './styles';
-import raft_logo from '../../../../public/svgs/raft_logo.svg';
+import onyx_logo from '../../../../public/images/onyx.png';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';
@@ -24,7 +23,7 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={raft_logo} alt="raft_logo" priority />
+          <Image src={onyx_logo} alt="onyx_logo" width="140" priority />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
@@ -35,12 +34,11 @@ const Header = () => {
           </BurgerMenu>
         </LogoContainer>
         <Nav className={isOpen ? 'active' : ''}>
-          {links.map((link, i) => (
-            <AnimatedLink key={i} title={link.linkTo} />
-          ))}
+          <a href="#services">Services</a>
+          <a href="#featured-work">Featured Work</a>
+          <a href="#faq">FAQ</a>
         </Nav>
         <CallToActions className={isOpen ? 'active' : ''}>
-          <AnimatedLink title="Login" />
           <GetStartedButton padding="0.5rem 0.75rem" />
         </CallToActions>
       </Inner>

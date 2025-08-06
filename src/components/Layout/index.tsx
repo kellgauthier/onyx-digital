@@ -3,7 +3,7 @@
 import { ReactLenis } from '@studio-freight/react-lenis';
 import StyledComponentsRegistry from '../../../libs/registry';
 import { GlobalStyles } from './GlobalStyles';
-import { Footer, Header, Preloader } from '..';
+import { Footer, Header } from '..';
 import { useState } from 'react';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -15,8 +15,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         easing={(t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t))}
       >
         <GlobalStyles />
-        <Preloader setComplete={setComplete} />
-        <div className={complete ? 'complete' : 'not_complete'}>
+        <div>
           <Header />
           {children}
           <Footer />

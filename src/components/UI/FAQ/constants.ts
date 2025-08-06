@@ -19,23 +19,23 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: "What’s included in your web development services?",
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Our full-stack services include custom design, front-end/back-end development, responsive layouts, CMS setup, SEO basics, and launch support. Ongoing maintenance is available too.',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: "Do I own my website after it’s built?",
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Yes, once your website is built and delivered, you own all rights to it. We provide you with all the necessary files and documentation.',
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question: 'Do you offer ongoing support or monthly retainers?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Yes, it is totally optional. We offer ongoing support and maintenance packages tailored to your needs. This includes regular updates, security checks, and performance optimization.',
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: 'Can you build a website for my small business or startup?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Absolutely. We specialize in creating scalable, professional sites that grow with your business—without the corporate price tag.',
   },
 ];

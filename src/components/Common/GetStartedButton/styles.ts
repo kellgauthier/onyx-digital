@@ -7,8 +7,8 @@ export const LinkTo = styled(Link)`
   justify-content: center;
   align-items: center;
   border-radius: 6.25rem;
-  background: var(--green);
-  color: var(--white);
+  background: #FF0000;
+  color: #FFFFFF;
   font-size: 1rem;
   font-weight: 600;
 `;

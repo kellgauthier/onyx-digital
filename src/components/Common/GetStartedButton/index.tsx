@@ -7,9 +7,9 @@ const GetStartedButton = ({ padding }: { padding: string }) => {
       style={{
         padding: padding,
       }}
-      href="/"
+      href="mailto:holler@onyx-rocks.com"
     >
-      Get Started
+      Ready to work with us?
     </LinkTo>
   );
 };

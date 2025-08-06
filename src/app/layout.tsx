@@ -3,8 +3,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Raft',
-  description: 'Building the future of banking',
+  title: 'Onyx Digital',
+  description: 'Custom web design and development agency based in Detroit, Michigan.',
 };
 
 export default function RootLayout({
